@@ -11,6 +11,7 @@ import { MoveMoney } from "./pages/MoveMoney";
 import { ExploreOptions } from "./pages/ExploreOptions";
 import { HelpAndSupport } from "./pages/HelpAndSupport";
 import { Accounts } from "./pages/Accounts";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }
